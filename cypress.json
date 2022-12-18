@@ -1,0 +1,23 @@
+{
+  "defaultCommandTimeout": 30000,
+  "pageLoadTimeout": 100000,
+  "viewportWidth": 1280,
+  "viewportHeight": 720,
+  "modifyObstructiveCode": true,
+  "experimentalSourceRewriting": true,
+  "chromeWebSecurity": false,
+  "env": {
+    "QA": "https://hzjz.king-ict.corp/"
+  },
+  "db": {
+    "userName": "vodne",
+    "password": "vodnenaknade",
+    "server": "vodmat04",
+    "options": {
+      "database": "VodneNaknadeQA",
+      "encrypt": true,
+      "rowCollectionOnRequestCompletion": true
+    }
+  },
+  "projectId": "7fsr7g"
+}

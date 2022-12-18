@@ -1,0 +1,18 @@
+{
+  "name": "hzjz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "DashBoardTest": "npx cypress run --headed --record --key a76aee17-1a1d-47e1-a58c-46614674fde7"
+  },
+  "author": "Mario Jelkic",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.0.0",
+    "cypress-file-upload": "^5.0.3",
+    "cypress-sql-server": "^1.0.0"
+  }
+}
